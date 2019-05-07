@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'IntroPruebasUnitarias';
+  public myVar = 'Hola mundo';
+  public saludo = 'Hola buenos días, Luis Fernando';
+
+  par(numero:number):boolean{
+    return numero%2 == 0 ? true : false;
+  }
 }
+
+
