@@ -13,5 +13,3 @@ export class AppComponent {
     return numero%2 == 0 ? true : false;
   }
 }
-
-
